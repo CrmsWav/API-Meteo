@@ -1,0 +1,147 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: #023047;
+  color: whitesmoke;
+}
+
+body {
+  padding: 5%;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+/* Container Left */
+
+.containerTitle {
+  width: 50%;
+}
+
+.jour {
+  margin: 0;
+  font-size: 2.5rem;
+  color: whitesmoke;
+}
+
+.date {
+  margin: 0;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+
+/* Container center */
+
+.containerMain {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#form {
+  width: 50%;
+}
+
+.containerInput {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 35px;
+  width: 100%;
+}
+
+#form input {
+  display: flex;
+  justify-content: start;
+  background-color: #35596c;
+  border-radius: 4px;
+  border: 0;
+  width: 75%;
+  margin-right: 5%;
+  padding: 10px;
+  color: whitesmoke;
+}
+
+::placeholder {
+  color: whitesmoke;
+  font-size: 1rem;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+}
+
+.btn img {
+  height: 100%;
+  background-color: whitesmoke;
+  border-radius: 6px;
+}
+
+.containerDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.temperature {
+  font-size: 4rem;
+  color: whitesmoke;
+}
+
+.temps {
+  font-size: 2.5rem;
+}
+
+.img img {
+  width: 50%;
+  height: auto;
+  margin: 40% 0 0 -50%;
+}
+
+.details img {
+  width: 10%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.city {
+  margin: 5% 0 0 -50%;
+  width: 50%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.details {
+  width: 50%;
+  text-align: center;
+  margin: 0 0 0 -50%;
+  font-size: 1.25rem;
+}
+
+/* Container Right */
+
+.days {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+}
+
+.previsions {
+  height: 50px;
+  width: 100%;
+  padding: 10%;
+  font-size: 1.25rem;
+  border-radius: 20px;
+  background-color: #35596c;
+  margin-bottom: 10%;
+}
